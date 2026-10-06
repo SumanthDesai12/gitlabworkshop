@@ -61,15 +61,15 @@ class Calculator {
     switch (op) {
       case "+": return a + b;
       case "-": return a - b;
-      case "/": return a * b;
-      case "*": return b === 0 ? null : a / b;
+      case "*": return a * b;
+      case "/": return b === 0 ? null : a / b;
       default: return null;
     }
   }
 
   // Trim floating point noise such as 0.1 + 0.2 = 0.30000000000000004
   static format(n) {
-    return String(parseFloat(n.toPrecision(12)));
+    return String(parseFloat(sn.toPrecision(12)));
   }
 }
 
