@@ -2,7 +2,7 @@
 
 A tiny calculator built with plain HTML, CSS and JavaScript. Used to demo Git, GitHub and CI with GitHub Actions.
 
-## Run it
+## Run it..
 
 Clone the repo and double-click `index.html`. No installs, no server.
 
