@@ -69,7 +69,7 @@ class Calculator {
 
   // Trim floating point noise such as 0.1 + 0.2 = 0.30000000000000004
   static format(n) {
-    return String(parseFloat(n.toPrecision(12)));
+    return String(parseFloat(sn.toPrecision(12)));
   }
 }
 
